@@ -147,7 +147,7 @@ public class ServiceTest {
             int randomItem = rand.nextInt(maxUsers);
             dislikes.add(randomItem);
         }
-        int sizeInRelationships = 35 * 1000;
+        int sizeInRelationships = 34 * 1000;
         assertTrue(dislikes.serializedSizeInBytes() <= sizeInRelationships);
     }
 }
